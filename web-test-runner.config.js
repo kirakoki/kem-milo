@@ -77,3 +77,18 @@ export default {
       </body>
     </html>`,
 };
+
+
+
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/food/bratwurst" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/food/cevapi" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/food/fondue" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/food/pizza" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/food/bratwurst" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/food/cevapi" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/food/fondue" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/food/pizza" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/it/food/fondue" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/it/food/pizza" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/it/food/fondue" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/it/food/pizza"

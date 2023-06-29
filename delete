@@ -1,0 +1,19 @@
+
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/index" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/placeholders.json" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/.helix/headers.json" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/docs/library/library.json" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/metadata.json" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/fragments/gnav" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/fragments/footer" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/fragments/demo" &&
+curl -X POST "https://admin.hlx.page/preview/kirakoki/kem-milo/main/fragments/404" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/index" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/placeholders.json" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/.helix/headers.json" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/docs/library/library.json" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/metadata.json" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/fragments/gnav" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/fragments/footer" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/fragments/demo" &&
+curl -X POST "https://admin.hlx.page/live/kirakoki/kem-milo/main/fragments/404"
